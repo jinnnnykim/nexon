@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEXON</title>
+<!-- 아이언 아이콘 -->
+<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+<!-- 나눔고딕 -->
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/common.css">
+<style>
+@font-face { 
+font-family:'nexon'; 
+src: url('fonts/NEXON Lv1 Gothic OTF.woff') format('woff'); 
+}
+@font-face {
+    font-family: 'NEXON Gothic Bold';
+    src: url(https://rs.nxfs.nexon.com/home/fonts/NEXON%20Lv1%20Gothic%20OTF%20Bold.eot);
+    src: url(https://rs.nxfs.nexon.com/home/fonts/NEXON%20Lv1%20Gothic%20OTF%20Bold.eot#iefix) format("embedded-opentype"),url(https://rs.nxfs.nexon.com/home/fonts/NEXON%20Lv1%20Gothic%20OTF%20Bold.woff) format("woff");
+    font-weight: 400
+}
+@font-face { 
+font-family:'nexonL'; 
+src: url('NEXON Lv1 Gothic OTF Light.woff') format('woff'); 
+}
+</style>
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</head>
+<body>
+<header id="header">
+  <div class="inner">
+    <h1><a href="#"><img src="images/Nexon_Logo_text.svg" alt="nexon"></a></h1>
+    <nav class="gnb">
+      <ul>
+        <li><a href="#">전체 게임</a></li>
+        <li><a href="#">공지사항</a></li>
+        <li><a href="#">고객센터</a></li>
+        <li><a href="#">회원가입</a></li>
+        <li><a href="#" class="login">로그인</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div id="visual">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/visual/crazy.jpg" alt="크레이지아케이드"></div>
+      <div class="swiper-slide"><img src="images/visual/sudden_attack.jpg" alt="서든어택"></div>
+      <div class="swiper-slide"><img src="images/visual/nexontown.jpg" alt="넥슨타운"></div>
+      <div class="swiper-slide"><img src="images/visual/cartrider.jpg" alt="카트라이더"></div>
+      <div class="swiper-slide"><img src="images/visual/baram.jpg" alt="바람의나라 궁사 리마스터"></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <!-- 
+  <div class="gallery">
+    <ul>
+      <li><img src="images/visual/asgard.jpg" alt="아스가르드"></li>
+      <li><img src="images/visual/sudden_attack.jpg" alt="서든어택"></li>
+      <li><img src="images/visual/nexontown.jpg" alt="넥슨타운"></li>
+      <li><img src="images/visual/talesweaver.jpg" alt="테일즈위버"></li>
+    </ul>
+  </div>
+   -->
+</div>
+<div id="container">
+  <section class="recommand">
+    <h2>추천 게임</h2>
+    <h3>&num;지금 가장 많이 접속하고 있는</h3>
+    <ul class="rec_games">
+      <li class="rec_thumb pick">
+        <div class="thumb_mask">
+          <img src="images/recommend_potgame.png" alt="항아리 리턴즈">
+        </div>
+        <div class="text">
+          <p class="icon">Pick</p>
+          <p class="name">항아리 리턴즈</p>
+        </div>
+      </li>
+      <li class="rec_thumb">
+        <div class="thumb_mask">
+          <img src="images/recommend_baram.png" alt="바람의 나라">
+        </div>
+        <div class="text">
+          <p class="icon">추천</p>
+          <p class="name">바람의 나라</p>
+        </div>
+      </li>
+      <li class="rec_thumb">
+        <div class="thumb_mask">
+          <img src="images/recommend_kurtzPel.png" alt="커즈펠">
+        </div>
+        <div class="text">
+          <p class="icon">추천</p>
+          <p class="name">커즈펠</p>
+        </div>
+      </li>
+      <li class="rec_thumb">
+        <div class="thumb_mask">
+        <img src="images/recommend dunpa.png" alt="던전 앤 파이터">
+        </div>
+        <div class="text">
+          <p class="icon">추천</p>
+          <p class="name">던전 앤 파이터</p>
+        </div>
+      </li>
+      </ul>
+    <img src="images/hyundaecard_banner.jpg" alt="넥슨 현대카드 홍보 배너" class="cardbanner">
+  </section>
+  <section class="maingames">
+    <h2>대표 게임</h2>
+    <div class="inner">
+      <div class="main_thumb"><a href="#">
+        <div class="thumb_mask">
+          <img src="images/main_dunpa.png" alt="던전앤파이터">
+        </div>
+        <div class="text">
+          <p class="name">던전앤파이터</p>
+          <p class="category">action rpg</p>
+          <div class="download">
+            <div class="down_icon">
+              <a href="#" class="ion-social-windows"></a>
+            </div>
+          </div>
+        </div>
+      </a></div>
+
+      <div class="main_thumb"><a href="#">
+        <div class="thumb_mask">
+          <img src="images/main_maplestory.png" alt="메이플스토리">
+        </div>
+        <div class="text">
+          <p class="name">메이플스토리</p>
+          <p class="category">rpg</p>
+          <div class="download">
+            <div class="down_icon">
+              <a href="#" class="ion-social-windows"></a>
+            </div>
+          </div>
+        </div>
+      </a></div>
+
+      <div class="main_thumb"><a href="#">
+        <div class="thumb_mask">
+          <img src="images/main_fifa.png" alt="FIFA 온라인 4">
+        </div>
+        <div class="text">
+          <p class="name">FIFA 온라인 4</p>
+          <p class="category">스포츠</p>
+          <div class="download">
+            <div class="down_icon">
+              <a href="#" class="ion-social-windows"></a>
+              <a href="#" class="ion-social-android"></a>
+              <a href="#" class="ion-social-apple"></a>
+            </div>
+          </div>
+        </div>
+      </a></div>
+
+      <div class="main_thumb"><a href="#">
+        <div class="thumb_mask">
+          <img src="images/main_sudden.png" alt="서든어택">
+        </div>
+        <div class="text">
+          <p class="name">서든어택</p>
+          <p class="category">fps</p>
+          <div class="download">
+            <div class="down_icon">
+              <a href="#" class="ion-social-windows"></a>
+            </div>
+          </div>
+        </div>
+      </a></div>
+
+      <div class="main_thumb"><a href="#">
+        <div class="thumb_mask">
+          <img src="images/main_mabinogi.png" alt="마비노기">
+        </div>
+        <div class="text">
+          <p class="name">마비노기</p>
+          <p class="category">rpg</p>
+          <div class="download">
+            <div class="down_icon">
+              <a href="#" class="ion-social-windows"></a>
+            </div>
+          </div>
+        </div>
+      </a></div>
+
+      <div class="main_thumb"><a href="#">
+        <div class="thumb_mask">
+          <img src="images/main_baram.png" alt="바람의나라 연">
+        </div>
+        <div class="text">
+          <p class="name">바람의나라&colon; 연</p>
+          <p class="category">rpg</p>
+          <div class="download">
+            <div class="down_icon">
+              <a href="#" class="ion-social-windows"></a>
+              <a href="#" class="ion-social-android"></a>
+              <a href="#" class="ion-social-apple"></a>
+            </div>
+          </div>
+        </div>
+      </a></div>
+
+      <div class="main_thumb"><a href="#">
+        <div class="thumb_mask">
+          <img src="images/main_blue.png" alt="블루 아카이브">
+        </div>
+        <div class="text">
+          <p class="name">블루 아카이브</p>
+          <p class="category">수집형 rpg</p>
+          <div class="download">
+            <div class="down_icon">
+              <a href="#" class="ion-social-android"></a>
+              <a href="#" class="ion-social-apple"></a>
+            </div>
+          </div>
+        </div>
+      </a></div>
+
+      <div class="main_thumb"><a href="#">
+        <div class="thumb_mask">
+          <img src="images/main_hit2.png" alt="히트2">
+        </div>
+        <div class="text">
+          <p class="name">히트2</p>
+          <p class="category">mmorpg</p>
+          <div class="download">
+            <div class="down_icon">
+              <a href="#" class="ion-social-windows"></a>
+            </div>
+          </div>
+        </div>
+      </a></div>
+    </div>
+  </section>
+</div>
+<footer id="footer">
+  <div class="notice">
+    <p class="main_notice"><a href="#">&lbrack;공지&rbrack; 2&sol;17&lpar;금&rpar; 넥슨 고객상담실 시스템 점검 안내</a></p> 
+    <p class="sns">
+      <a href="#"><span class="ion-social-youtube"></span></a>
+      <a href="#"><span class="ion-social-twitter"></span></a>
+      <a href="#"><span class="ion-social-facebook"></span></a>
+    </p>
+  </div>
+  <nav class="sitemap">
+    <h2 class="blind">웹사이트 정보&comma; 약관</h2>
+    <ul>
+      <li><a href="#">이용약관</a></li>
+      <li><a href="#">개인정보처리방침</a></li>
+      <li><a href="#">청소년보호정책</a></li>
+      <li><a href="#">게임IP사용가이드</a></li>
+      <li><a href="#">게임시간선택제</a></li>
+      <li><a href="#">고객센터</a></li>
+      <li><a href="#">전체서비스</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">회사소개</a></li>
+      <li><a href="#">채용안내</a></li>
+      <li><a href="#">윤리경영</a></li>
+      <li><a href="#">level up&lpar;넥슨폰트&rpar;</a></li>
+      <li><a href="#">광고문의</a></li>
+      <li><a href="#">넥슨PC방</a></li>
+    </ul>
+  </nav>
+  <div class="information">
+    <h2 class="blind">넥슨 기업정보</h2>
+    <div>
+      <span>㈜넥슨코리아 대표이사 이정헌 경기도 성남시 분당구 판교로 256번길 7</span>
+      <span>전화 &colon; 1588&hyphen;701</span>
+      <span>팩스 &colon; 0502&hyphen;58&hyphen;322</span><br>
+      <span>E-mail &colon; contact&hyphen;s@nexon.co.kr</span>
+      <span>사업자등록번호 &colon; 220&hyphen;7&hyphen;7483호</span>
+      <span>통신판매업 신고번호 &colon; 제2013&hyphen;기성남&hyphen;659호 <a href="#">사업자정보확인</a></span>
+    </div>
+  </div>
+  <p class="copyright">&copy; NEXON Korea Corporation All Rights Reserved.</p>
+</footer>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+</body>
+</html>
